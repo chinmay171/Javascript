@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.lang{
+    background-color:darkslategray;
+    margin: 25px;
+    padding: 15px;
+    font-family: sans-serif;
+    border-radius: 20px;
+}
+
+.heading{
+    font-family: 'Courier New';
+    text-align: center;
+}
+
+.btns{
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+
+.btn{
+    background-color: honeydew;
+    border: none;
+    border-radius: 25px;
+    height: 40px;
+    width: 200px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.inputNewLang{
+    height: 40px;
+    width: 200px;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 0px 20px 0px;
+    background-color: black;
+    color: white;
+}
