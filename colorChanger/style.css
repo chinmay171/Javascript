@@ -1,0 +1,28 @@
+.btns{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn{
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.grey{
+    background-color: grey;
+}
+.blue{
+    background-color: blue;
+}
