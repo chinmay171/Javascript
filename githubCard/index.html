@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Card</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>Get overview for Github Profiles !!!</h1>
+    <div class="btns">
+        <input type="text" id="inputArea" placeholder="Enter Your Github Username">
+        <input type="submit" , id="submitBtn">
+    </div>
+    <div class="overviewCard">
+        <div class="usernameDiv">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJcAAACXCAMAAAAvQTlLAAAAMFBMVEXk5ueutLfq7O3n6eqrsbTe4eKnrrHY29zHy83U19nR1Na8wcO5vsHO0dPb3t/AxccO+C5xAAADd0lEQVR4nO2b65KrIAyAgXBTQd//bRfdutaetkIw0ZnDN7M70/76JoRwS4VoNBqNRqPRaDQajUaj0Wj8d0D6M66PMXbm8fF6AMY4BW2tTqT/wfcGLlcDiEFqLZ9InwZ3bdBARLlzWrGyv9AM+vdWS9TCeJEYmGA/WS0xmy4JGXSfg7WGzPCLgf8arF8x27GL+YNgPcx6XjGYsrRSkrFGDGKmVoqY4xMr0EoRM2xaokArzUouLxEKtJLYwDOSKm8qPo0kT+U3x4XrBZaRzC4RGyxVzJVazWL0Xqo8XMkr0osVZ9cMeYYVldSngI3UYmW1689rIh7IEaWVxBStF24Y59pKqgUD0kt70oFUSC0paRdJQFWJGdpK4dBeknIbBj16HKWj9Crd4mxoUi/M4vjw6ki9sFppr9O8buR10/zCz0faOlFRv0gX7vGe9f626yN+P0G7YUVPSOoTETbxqW91sPt7Sby/x56HaLfRNz4/4ioF/Y0OakZy3P6iMp866wXu/otyL7Fxz/vC8ilpuZ6Jyi4DyGvXStn9PfENwE6sKxDTXFazWJ+f++SVfieWu9HnfLZaxGJexJi18o4gWl7w9g7m8H17YHvi24mJryuS5nhMeI/qPncq6OmCZoAVEP1LE8waq0B5vM4xU276pz8neMOwsTkyA+N8mNuZZiWrQxxv0mk1R02J0XWdM0JdH6mN5LVxebAAQBjXRT8NYcmrOc1CmHzs3GjgmuY0UKLzISw6u7zXv18kP/a+ORBjnKR9VyF2E9PaITouOVCjf23d++ImU9zozVKkfKoFeU5b3IaOtPgr6MPRYv3eTEsvqAoIjL40Ui9Bo6i3SkyoUD0HbXBnxwxMTaz+sOHc/St8aFMtRsvpvDwDd5LVYmbjOWkGFY8v781O6bg9NVirma/WUtiGie9i1a3A2H6JI7GqExyYQKM1i+ErxvEJscoM20RHq4UWA/TTRi4WJUYcrRmNuT4nS/lnseLkP7vIf6LwZqXmgb2EwuZpGHm0ii+rmaxmClKMaxQXCkbSMGoVvHwrosX6E7mj6Hi1clOfq3Rt5MWLNbtm8jKMdTI+yPJit8pbJjG/R6j1ysj8K4Yxq7YyF69fMrYVuEaXOuzxK0T5r4NOICPBKjqzKxiOLlOQfUHVHHpdMR1lRmXdPV3wcaTVaDQajUbjvvwAL5sqQKUiYikAAAAASUVORK5CYII="
+                alt="profilePicture" id="GithubDP">
+            <p id="username">username</p>
+        </div>
+        <div class="info">
+            <div class="followerIngDiv">
+                <p id="followers">followers: </p>
+                <p id="following">following: </p>
+            </div>
+            <div class="repoCount">
+                <p id="NoofRepos">Number of Repos: </p>
+            </div>
+            <div class="dates">
+                <p id="joiningDate">User Joined: </p>
+                <p id="updateDate">Profile Updated At: </p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+
+</html>

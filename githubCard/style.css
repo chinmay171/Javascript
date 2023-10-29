@@ -1,0 +1,31 @@
+.overviewCard{
+    border: 1px solid red;
+    /* display: flex; */
+}
+
+.followerIngDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dates{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.overviewCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
